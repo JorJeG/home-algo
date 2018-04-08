@@ -1,3 +1,4 @@
+Object.defineProperty(exports, '__esModule', { value: true });
 class Emitter {
   constructor() {
     this.handlers = {};
@@ -40,7 +41,7 @@ class Emitter {
   }
 }
 
-export default Emitter;
+module.exports = Emitter;
 
 const handler = () => console.log(1);
 const handler2 = () => console.log(2);
